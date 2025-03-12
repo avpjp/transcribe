@@ -65,4 +65,5 @@ Hardware:
 # See also
 
 [venv: Python 仮想環境管理](https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e)
+
 [MacBook ProでWhisper large-v3-turboをMLXと共に試してみる](https://note.com/ngc_shj/n/n4b197c67a8d9)
