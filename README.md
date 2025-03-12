@@ -14,7 +14,7 @@ Make environment and install packages.
 
 ```
 python3 -m venv avpjp-transcribe-env
-source bin/activate
+source avpjp-transcribe-env/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -33,17 +33,15 @@ rm -rf avpjp-transcribe-env
 
 # Make chapters
 
+ChatGPT 4.5
+
 prompt
 
 ```
-This is podcast transcribe. Please make youtube format chapter.
+これはpodcastの書き起こしです。視聴者がアクセスしやすいように、全体を１０個程度のチャプターに分割して、Youtubeのチャプターのフォーマットで書き出してください。
 ```
 
-![](https://github.com/avpjp/transcribe/blob/main/.github/screenshot.png)
-
 # Environment & Performance
-
-ChatGPT Plus
 
 ```
 Hardware:
