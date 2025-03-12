@@ -1,5 +1,6 @@
 import mlx_whisper
 import sys
+import datetime
 
 # コマンドライン引数からファイル名を取得（指定がなければデフォルト値を使用）
 audio_file = sys.argv[1] if len(sys.argv) > 1 else "output_audio.mp3"
@@ -15,7 +16,8 @@ result = mlx_whisper.transcribe(
 # 発話セグメントごとにタイムスタンプと一緒に表示
 for segment in result["segments"]:
     start_time = segment["start"]
-    end_time = segment["end"]
     text = segment["text"]
     
-    print(f"[{start_time:.2f}s - {end_time:.2f}s] {text}")
+    # 秒を時:分:秒形式に変換
+    time_str = str(datetime.timedelta(seconds=int(start_time)))    
+    print(f"[{time_str}] {text}")
