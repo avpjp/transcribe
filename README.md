@@ -58,7 +58,7 @@ Hardware:
 
 | Duration | Size | Transcribe Time | Output file size |
 | --- | --- | --- | --- |
-| 1:02:29 | 2.8GB | 0:00:00 | 107KB |
+| 1:02:29 | 2.8GB | 403.14s | 107KB |
 
 # See also
 
