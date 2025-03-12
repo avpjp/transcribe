@@ -39,6 +39,8 @@ prompt
 This is podcast transcribe. Please make youtube format chapter.
 ```
 
+![](https://github.com/avpjp/transcribe/blob/main/.github/screenshot.png)
+
 # Environment & Performance
 
 ChatGPT Plus
