@@ -33,7 +33,7 @@ rm -rf avpjp-transcribe-env
 
 # Make chapters
 
-ChatGPT 4.5
+Gemini 2.0 Flash
 
 prompt
 
